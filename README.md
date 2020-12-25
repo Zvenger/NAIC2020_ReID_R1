@@ -131,7 +131,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python tools/train_net.py --config-file ./configs/P
 
 
 
-# 3.项目介绍
+## 3.项目介绍
 
 **模型配置位置**
 
@@ -160,6 +160,8 @@ configs/PCL下的yml文件，具体模型配置参数可以在yml文件中查看
 
 数据增强 使用了三通道0.5概率随机交换的数据增强trick
     具体代码位置 fastreid/data/transforms/transforms.py中的RandomShuffleChannel类
+
+
 
 
 
